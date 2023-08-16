@@ -33,6 +33,9 @@ export const Primary: Story = {
         },
         'dark': {
           viewport: 666,
+        },
+        'light': {
+          theme: 'light',
         }
       }
     }
