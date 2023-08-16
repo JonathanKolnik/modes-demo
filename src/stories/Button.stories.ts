@@ -29,6 +29,10 @@ export const Primary: Story = {
         '320px': {
           viewport: 320
         },
+        '640px': {
+          viewport: 640,
+          theme: 'dark'
+        },
       }
       //   // 'mobile': {
       //   //   viewport: 666,
