@@ -29,8 +29,8 @@ export const Primary: Story = {
         '320px': {
           viewport: 320
         },
-        '640px': {
-          viewport: 640,
+        '640': {
+          viewport: 100,
         },
       }
       //   // 'mobile': {
