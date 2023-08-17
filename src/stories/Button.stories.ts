@@ -30,7 +30,7 @@ export const Primary: Story = {
           viewport: 320
         },
         '640': {
-          viewport: 100,
+          viewport: 640,
         },
       }
       //   // 'mobile': {
