@@ -29,7 +29,7 @@ export const Primary: Story = {
         '320px': {
           viewport: 320
         },
-        '640': {
+        '640px': {
           viewport: 640,
         },
       }
