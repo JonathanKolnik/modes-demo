@@ -32,6 +32,7 @@ export const Primary: Story = {
         'mobile': {
           viewport: 666,
           lang: 'es',
+          theme: 'dark'
         },
         'dark': {
           viewport: 666,
