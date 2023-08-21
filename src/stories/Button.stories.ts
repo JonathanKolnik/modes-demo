@@ -27,7 +27,8 @@ export const Primary: Story = {
 
       modes: {
         '320px': {
-          viewport: 320
+          viewport: 320,
+          theme: 'dark'
         },
         '640px': {
           viewport: 640
