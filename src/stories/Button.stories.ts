@@ -23,18 +23,24 @@ export const Primary: Story = {
   },
   parameters: {
     chromatic: {
-      modes: {
-        '666px': {
-          viewport: 666
-        },
-        'mobile': {
-          viewport: 666,
-          lang: 'es',
-        },
-        'dark': {
-          viewport: 666,
-        }
-      }
+    viewports: [320, 640],
+
+      // modes: {
+      //   '320px': {
+      //     viewport: 320
+      //   },
+      //   '640px': {
+      //     viewport: 640,
+      //   },
+      // }
+      //   // 'mobile': {
+      //   //   viewport: 666,
+      //   //   lang: 'es',
+      //   // },
+      //   // 'dark': {
+      //   //   viewport: 666,
+      //   // }
+      // }
     }
   }
 };
@@ -48,18 +54,4 @@ export const Primary: Story = {
 //       viewports: [320, 1200],
 //     }
 //   }
-// };
-
-// export const Large: Story = {
-//   args: {
-//     size: 'large',
-//     label: 'Button',
-//   },
-// };
-
-// export const Small: Story = {
-//   args: {
-//     size: 'small',
-//     label: 'Button',
-//   },
 // };
