@@ -23,12 +23,16 @@ export const Primary: Story = {
   },
   parameters: {
     chromatic: {
-    viewports: [320, 640],
+    // viewports: [320, 640],
 
-      // modes: {
-      //   '320px': {
-      //     viewport: 320
-      //   },
+      modes: {
+        '320px': {
+          viewport: 320
+        },
+        '640px': {
+          viewport: 640
+        }
+        }
       //   'mobile': {
       //     viewport: 666,
       //     lang: 'es',
