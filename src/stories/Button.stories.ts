@@ -23,12 +23,16 @@ export const Primary: Story = {
   },
   parameters: {
     chromatic: {
-    viewports: [320, 640],
+    // viewports: [320, 640],
 
-      // modes: {
-      //   '320px': {
-      //     viewport: 320
-      //   },
+      modes: {
+        '320px': {
+          viewport: 320,
+          theme: 'dark'
+        },
+        '640px': {
+          viewport: 640
+        },
       //   'mobile': {
       //     viewport: 666,
       //     lang: 'es',
@@ -36,7 +40,7 @@ export const Primary: Story = {
       //   'dark': {
       //     viewport: 666,
       //   }
-      // }
+      }
     }
   }
 };
